@@ -1,0 +1,13 @@
+development: &default
+  adapter: postgresql
+  encoding: unicode
+  database: project_development
+  pool: 5
+  username: project
+  password: project
+  host: localhost
+  post: 5432
+
+test:
+  <<: *default
+  database: project_test

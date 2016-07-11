@@ -1,0 +1,4 @@
+node_modules
+.byebug_history
+api/public/bundle.js
+api/public/bundle.js.map
